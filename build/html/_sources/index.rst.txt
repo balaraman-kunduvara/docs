@@ -14,7 +14,7 @@ Welcome to Open RPA's documentation!
 
    Getting Started<orpa-setup/readme>
    User Guide<orpa-nodes/readme>
- 
+
 
 
 
@@ -24,3 +24,6 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+design
+   Theme <https://sphinx-rtd-theme.readthedocs.io/en/latest/>
