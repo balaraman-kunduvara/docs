@@ -48,8 +48,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Open RPA'
-copyright = u'2018, Balaraman Kunduvara, Madhav Sivadas, Sivakumar Madhavan'
-author = u'Balaraman Kunduvara, Madhav Sivadas, Sivakumar Madhavan'
+copyright = u'2018, Telligro Pte. Ltd.'
+author = u'BK, MS, SM'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -84,27 +84,17 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'classic'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
 html_theme_options = {
-    'typekit_id': '',
-    'canonical_url': '',
-    'analytics_id': '',
-    'logo_only': False,
-    'display_version': True,
-    'prev_next_buttons_location': Bottom,
-    'style_external_links': False,
-    # Toc options
-    'collapse_navigation': False,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False
+    "rightsidebar": "false",
+    "relbarbgcolor": "black"
 }
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
