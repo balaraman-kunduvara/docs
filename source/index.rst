@@ -25,5 +25,4 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
-design
-   Theme <https://sphinx-rtd-theme.readthedocs.io/en/latest/>
+
