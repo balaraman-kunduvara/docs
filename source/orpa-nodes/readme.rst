@@ -1,45 +1,25 @@
-orpa-nodes |Build Status|
-=========================
 
+Getting Started
+===============
 
-   
-ORPA Nodes
----------------
+Let us get the tool installed. You can refer to the steps provided in the :ref:`rst_setup`
 
-Refer to `orpa-setup <https://github.com/telligro/orpa-setup>`__ project
-for more details.
+Terms
+-----
+**Node**- A action that is performed. Nodes are available in the palette.
 
-Contains the nodes that are part of the OPAL Framework
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Properties** - The properties of a node are the list of attributes or values that is required for executing a node. They are configured through the editor and passed to the run-time as part of the generated json configuration.
 
--  `orpa-node-msexcel <https://github.com/balaraman-kunduvara/orpa-nodes/tree/master/packages/orpa-node-database>`__
-   |orpa-node-msexcel build status|
--  `orpa-node-database <https://github.com/telligro/orpa-nodes/tree/master/packages/orpa-node-database>`__
-   |orpa-node-database build status|
--  `orpa-node-email <https://github.com/telligro/orpa-nodes/tree/master/packages/orpa-node-email>`__
-   |orpa-node-email build status|
--  `orpa-node-ftp <https://github.com/telligro/orpa-nodes/tree/master/packages/orpa-node-ftp>`__
-   |orpa-node-ftp build status|
--  `orpa-node-soap <https://github.com/telligro/orpa-nodes/tree/master/packages/orpa-node-soap>`__
-   |orpa-node-soap build status|
--  `orpa-node-control-flow <https://github.com/telligro/orpa-nodes/tree/master/packages/orpa-node-control-flow>`__
-   |orpa-node-control-flow build status|
--  `orpa-node-selenium-webdriver <https://github.com/telligro/orpa-nodes/tree/master/packages/orpa-node-selenium-webdriver>`__
-   |orpa-node-selenium-webdriver build status|
+**Module** - A collection of related nodes that are published together to the repository. They are installed and managed as a collection and they mostly have their own palette category.
 
-.. |Build Status| image:: https://travis-ci.org/telligro/orpa-nodes.svg?branch=master
-   :target: https://travis-ci.org/telligro/orpa-nodes
-.. |orpa-node-msexcel build status| image:: https://frozen-fortress-98851.herokuapp.com/telligro/orpa-nodes/2/badge?subject=build
-   :target: https://travis-ci.org/telligro/orpa-nodes
-.. |orpa-node-database build status| image:: https://frozen-fortress-98851.herokuapp.com/telligro/orpa-nodes/5/badge?subject=build
-   :target: https://travis-ci.org/telligro/orpa-nodes
-.. |orpa-node-email build status| image:: https://frozen-fortress-98851.herokuapp.com/telligro/orpa-nodes/8/badge?subject=build
-   :target: https://travis-ci.org/telligro/orpa-nodes
-.. |orpa-node-ftp build status| image:: https://frozen-fortress-98851.herokuapp.com/telligro/orpa-nodes/11/badge?subject=build
-   :target: https://travis-ci.org/telligro/orpa-nodes
-.. |orpa-node-soap build status| image:: https://frozen-fortress-98851.herokuapp.com/telligro/orpa-nodes/14/badge?subject=build
-   :target: https://travis-ci.org/telligro/orpa-nodes
-.. |orpa-node-control-flow build status| image:: https://frozen-fortress-98851.herokuapp.com/telligro/orpa-nodes/17/badge?subject=build
-   :target: https://travis-ci.org/telligro/orpa-nodes
-.. |orpa-node-selenium-webdriver build status| image:: https://frozen-fortress-98851.herokuapp.com/telligro/orpa-nodes/20/badge?subject=build
-   :target: https://travis-ci.org/telligro/orpa-nodes
+**Flow** -  A sequence of nodes that represent tasks performed on various resources. The resources maybe UI based like TextField, Button etc or Non-UI resources like File, Webservice, Email.
+
+**Context** - Refers to the state that is available to a node. This could be any valid JS types. There are 3 types of context namely; Global, Flow and Node.
+
+**Project** - A collection of flows that contains a deployed unit. Typically a process to be automated
+
+**Editor** - The user interface that is used to compose flows. Editor has sections to define flows and resources. It shows debug messages, help associated with various nodes and managing projects.Flows are composed by configuring nodes and connecting them together as the process dictates.
+
+**Runtime** - The engine that executes the flow once it is deployed from the Editor
+
+**Object Finder** -  The component integrated with studio that allows finding UI objects on various types of application.

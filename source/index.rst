@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Open RPA's documentation!
-====================================
+OPAL an Open Source Automation Framework
+========================================
 
 .. toctree::
    :maxdepth: 2
@@ -12,17 +12,5 @@ Welcome to Open RPA's documentation!
 
 
 
-   Getting Started<orpa-setup/readme>
+   Concepts<concepts/readme>
    User Guide<orpa-nodes/readme>
-
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-
