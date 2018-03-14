@@ -6,7 +6,7 @@ Let us get the tool installed. You can refer to the steps provided in the :ref:`
 
 Terms
 -----
-**Node**- A action that is performed. Nodes are available in the palette.
+**Node**- A action that is performed. Nodes are available in the palette. Read the opalnodes_ documentation to view all nodes.
 
 **Properties** - The properties of a node are the list of attributes or values that is required for executing a node. They are configured through the editor and passed to the run-time as part of the generated json configuration.
 
@@ -23,3 +23,13 @@ Terms
 **Runtime** - The engine that executes the flow once it is deployed from the Editor
 
 **Object Finder** -  The component integrated with studio that allows finding UI objects on various types of application.
+
+.. _opalnodes:
+
+Opal Nodes
+----------
+
+.. toctree::
+   :glob:
+
+   packages/readm*

@@ -1,3 +1,4 @@
+
 Opens an xlsx or xls file spreasheet from a specified location and reads
 the contents. The contents can then be passed to downstream node or
 saved to a store variable

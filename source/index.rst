@@ -7,7 +7,7 @@ OPAL an Open Source Automation Framework
 ========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Contents:
 
 

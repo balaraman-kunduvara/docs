@@ -1,6 +1,4 @@
 
-..rst_concepts
-
 Automation Framework
 =====================
 
