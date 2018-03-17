@@ -31,5 +31,5 @@ Opal Nodes
 
 .. toctree::
    :glob:
-
-   packages/readm*
+   
+   packages/**/README

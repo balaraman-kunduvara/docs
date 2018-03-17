@@ -2,6 +2,9 @@
 opal-node-control-flow ———————- **This module is part of the OPAL
 framework**
 
+opal-node-control-flow
+======================
+
 **Nodes:** \* opal loops
 
 **Loops** \* Provides ``for-loop``, ``foreach-loop``, ``while-loop``
