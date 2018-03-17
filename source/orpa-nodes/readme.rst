@@ -24,12 +24,12 @@ Terms
 
 **Object Finder** -  The component integrated with studio that allows finding UI objects on various types of application.
 
-.. _opalnodes:
 
 Opal Nodes
 ----------
+.. _opalnodes:
 
 .. toctree::
    :glob:
-   
+
    packages/**/README
